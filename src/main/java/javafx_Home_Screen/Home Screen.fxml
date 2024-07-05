@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx_Home_Screen.HomeScreenController">
+   <children>
+      <Label layoutX="196.0" layoutY="55.0" prefHeight="50.0" prefWidth="210.0" text="Home Screen" textFill="#f57358">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Button fx:id="AddUserButton" layoutX="208.0" layoutY="138.0" mnemonicParsing="false" onAction="#AddUserButtonClick" prefHeight="34.0" prefWidth="183.0" text="Add User" />
+      <Button fx:id="AddProductButton" layoutX="208.0" layoutY="200.0" mnemonicParsing="false" onAction="#AddProductButtonClick" prefHeight="41.0" prefWidth="183.0" text="Add Product" />
+      <Button fx:id="LogoutButton" layoutX="209.0" layoutY="311.0" mnemonicParsing="false" onAction="#LogoutButtonClick" prefHeight="26.0" prefWidth="183.0" text="Logout" />
+   </children>
+</AnchorPane>
